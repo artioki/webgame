@@ -3,7 +3,7 @@
 https://nodejs.org/ru/download/
 
 1. В проекте запустить установшик пакетов
- `prodject/npm i`
+ `npm i`
 2. запустить сервер 
 `npm run dev`
 
