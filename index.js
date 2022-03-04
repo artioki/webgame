@@ -31,6 +31,7 @@ app.get('/', (req, res) => {
 });
 //прослушивание событий
 server.listen(PORT, () => {
+  console.log(process.env.Port)
   console.log(`listening on *:${PORT}`);
 });
 
