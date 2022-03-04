@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "web": "npm i"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "nodemon": "^2.0.15"
   },
   "engines": {
-    "node": "14.x"
+    "node": "17.x"
   }
   
 }
