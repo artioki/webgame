@@ -7,7 +7,7 @@ import { Server } from "socket.io";
 const _USERS =[]; 
 
 const __dirname = path.resolve() // возращает ссылку в деррикторию
-const PORT = process.env.Port || 3000
+const PORT = process.env.Port || 8001
 
 const app = express()
 //создание сервера
@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 });
 //прослушивание событий
 server.listen(PORT, () => {
-  console.log('listening on *:3000');
+  console.log(`listening on *:${PORT}`);
 });
 
 
